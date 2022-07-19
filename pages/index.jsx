@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import Head from "next/head";
 import Image from "next/image";
 import { API_URL } from "@/config/index";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -25,6 +25,27 @@ export default function Home({ banners, news, fotos, sedethe, news2 }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
+      <Head>
+        <title>Associação do Pessoal da Caixa Econômica Federal - Piauí</title>
+        <link rel="icon" href="/logo.png" />
+        <meta
+          name="description"
+          content="APCEF/PI - Associação do Pessoal da Caixa Econômica Federal - Piauí"
+        />
+        <meta
+          name="keywords"
+          content="Clube, APCEF/PI, Lazer, Férias, Eventos, Caixa"
+        />
+        <meta
+          property="og:title"
+          content="APCEF/PI - Associação do Pessoal da Caixa Econômica Federal - Piauí"
+        />
+        <meta property="og:url" content="https://web-app-apcef.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://web-app-apcef.vercel.app/logopi.png"
+        />
+      </Head>
       <Swiper
         pagination={{
           dynamicBullets: true,
