@@ -13,17 +13,18 @@ export default function SingleNews({ news }) {
           {news.titulo}
         </h1>
         <h2 className="title-font text-md mb-1">{news.subtitulo}</h2>
-        <div className="mb-8 mt-4 flex items-center rounded-xl p-2 shadow-md shadow-blue-200">
-          <div className="mr-3">
+        <div className="mb-8 mt-4 rounded-xl p-2 shadow-md shadow-blue-200">
+          <div className="mr-3 flex justify-center p-4">
             <Image
               src={news.image ? news.image.url : "No Image"}
               alt="avatar"
               width="500px"
               height="300px"
+              className="rounded"
             />
           </div>
           <div>
-            <h2 className="title-font text-md mb-1">
+            <h2 className="title-font text-md mb-1 p-5">
               <ReactMarkdown escapeHtml={false}>{news.descricao}</ReactMarkdown>
             </h2>
           </div>
