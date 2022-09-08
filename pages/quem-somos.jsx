@@ -6,7 +6,7 @@ export default function About({ about }) {
   return (
     <>
       <div className="mx-auto max-w-7xl px-2 pt-8">
-        <div className="grid grid-cols-2 gap-8">
+        <div className="md:grid md:grid-cols-2 gap-8 p-2">
           {about.map((item) => (
             <div key={item.id}>
               <AboutItem about={item} />

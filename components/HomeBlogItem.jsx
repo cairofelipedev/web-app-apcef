@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function HomeBlogItem({ news }) {
   return (
     <div className="mb-4 h-full overflow-hidden rounded-xl shadow-md shadow-blue-200">
-      <div className="duration-400 h-36 w-full scale-110 object-cover object-center transition-all hover:scale-100 ">
+      <div className="duration-400 h-36 w-full scale-100 object-cover object-center transition-all hover:scale-100 ">
         <Image layout="fill" src={news.image ? news.image.url : 'No Image'} alt="Vercel Logo" />
       </div>
       <div className="p-6">

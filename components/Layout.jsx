@@ -205,6 +205,138 @@ const Layout = ({ children }) => {
                     </Link>
                   </button>
                 </li>
+                <li>
+                  <button className="inline-flex items-center rounded py-2 px-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      fill="#E96708"
+                      className="bi bi-chevron-right font-bold"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                    <Link href="/esportes/hidroginastica">
+                      <h1 className="ml-2 mr-5 text-sm text-gray-900">
+                      HIDROGINÁSTICA
+                      </h1>
+                    </Link>
+                  </button>
+                </li>
+                <li>
+                  <button className="inline-flex items-center rounded py-2 px-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      fill="#E96708"
+                      className="bi bi-chevron-right font-bold"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                    <Link href="/esportes/muay-thai-kung-fu-boxe-mma">
+                      <h1 className="ml-2 mr-5 text-sm text-gray-900">
+                      MUAY THAI, KUNG FU, BOXE, MMA
+                      </h1>
+                    </Link>
+                  </button>
+                </li>
+                <li>
+                  <button className="inline-flex items-center rounded py-2 px-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      fill="#E96708"
+                      className="bi bi-chevron-right font-bold"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                    <Link href="/esportes/plano-de-emagrecimento">
+                      <h1 className="ml-2 mr-5 text-sm text-gray-900">
+                      PLANO DE EMAGRECIMENTO
+                      </h1>
+                    </Link>
+                  </button>
+                </li>
+                <li>
+                  <button className="inline-flex items-center rounded py-2 px-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      fill="#E96708"
+                      className="bi bi-chevron-right font-bold"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                    <Link href="/esportes/futebol">
+                      <h1 className="ml-2 mr-5 text-sm text-gray-900">
+                      FUTEBOL
+                      </h1>
+                    </Link>
+                  </button>
+                </li>
+                <li>
+                  <button className="inline-flex items-center rounded py-2 px-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      fill="#E96708"
+                      className="bi bi-chevron-right font-bold"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                    <Link href="/esportes/modalidades-ctfit">
+                      <h1 className="ml-2 mr-5 text-sm text-gray-900">
+                      MODALIDADES CTFIT
+                      </h1>
+                    </Link>
+                  </button>
+                </li>
+                <li>
+                  <button className="inline-flex items-center rounded py-2 px-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      fill="#E96708"
+                      className="bi bi-chevron-right font-bold"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                    <Link href="/esportes/academia-eugenio-fortes">
+                      <h1 className="ml-2 mr-5 text-sm text-gray-900">
+                      ACADEMIA EUGÊNIO FORTES
+                      </h1>
+                    </Link>
+                  </button>
+                </li>
               </ul>
             </div>
             <Link href="/sedes" className="p-1 font-medium uppercase sm:p-4">

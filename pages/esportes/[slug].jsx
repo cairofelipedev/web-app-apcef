@@ -9,34 +9,24 @@ export default function SingleSports({ sports }) {
   const router = useRouter();
   return (
     <>
-      <div className="mx-auto max-w-7xl px-2 pt-4">
+    <div className="mx-auto max-w-7xl px-2 pt-4">
         <h1 className="text-center text-3xl font-extrabold leading-9 tracking-tight text-blue-apcef dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-left md:text-3xl md:leading-14">
           {sports.nome}
         </h1>
         <h2 className="title-font text-md mb-1">{sports.descricao}</h2>
-        <div className="mb-8 mt-4 flex items-center rounded-xl p-2 shadow-md shadow-blue-200">
-          <div className="mr-3">
-            <Image
-              src={sports.imagem ? sports.imagem.url : "No Image"}
-              alt="avatar"
-              width="500px"
-              height="300px"
-            />
+        <div className="mb-8 mt-4 rounded-xl p-2 shadow-md shadow-blue-200">
+          <div className="mr-3 flex justify-center p-4">
+            <div className="h-60 md:w-1/2 w-full scale-100">
+              <Image
+                src={sports.imagem ? sports.imagem.url : '/logo.png'}
+                layout="fill"
+                className="rounded"
+              />
+            </div>
           </div>
           <div>
-            <h2 className="title-font mb-1 pt-4 text-lg font-semibold text-blue-apcef">
-              Horários
-            </h2>
-            <h2 className="title-font text-md mb-1">
-              <ReactMarkdown escapeHtml={false}>
-                {sports.horarios}
-              </ReactMarkdown>
-            </h2>
-            <h2 className="title-font mb-1 pt-4 text-lg font-semibold text-blue-apcef">
-              Valores
-            </h2>
-            <h2 className="title-font text-md mb-1">
-              <ReactMarkdown escapeHtml={false}>{sports.valores}</ReactMarkdown>
+            <h2 className="title-font text-md mb-1 p-5">
+              <ReactMarkdown escapeHtml={false}>{sports.horarios}</ReactMarkdown>
             </h2>
           </div>
         </div>

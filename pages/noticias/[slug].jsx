@@ -15,13 +15,13 @@ export default function SingleNews({ news }) {
         <h2 className="title-font text-md mb-1">{news.subtitulo}</h2>
         <div className="mb-8 mt-4 rounded-xl p-2 shadow-md shadow-blue-200">
           <div className="mr-3 flex justify-center p-4">
-            <Image
-              src={news.image ? news.image.url : "No Image"}
-              alt="avatar"
-              width="500px"
-              height="300px"
-              className="rounded"
-            />
+            <div className="h-60 md:w-1/2 w-full scale-100">
+              <Image
+                src={news.image ? news.image.url : "/logo.png"}
+                layout="fill"
+                className="rounded"
+              />
+            </div>
           </div>
           <div>
             <h2 className="title-font text-md mb-1 p-5">

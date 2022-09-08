@@ -7,7 +7,7 @@ export default function SportItem({ sports }) {
       <div className="mr-3">
         <Image
           className="rounded-md"
-          src={sports.imagem ? sports.imagem.url : 'No Image'}
+          src={sports.imagem ? sports.imagem.url : '/logo.png'}
           alt="avatar"
           width="500px"
           height="300px"

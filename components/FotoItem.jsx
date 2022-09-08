@@ -6,7 +6,7 @@ export default function FotoItem({ fotos }) {
       <Image
         width="800px"
         height="500px"
-        src={fotos.image ? fotos.image.url : "No Image"}
+        src={fotos.image ? fotos.image.url : '/logo.png'}
         alt={fotos.Nome}
         className="rounded-md"
       />

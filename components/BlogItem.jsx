@@ -5,7 +5,7 @@ export default function BlogItem({ news }) {
   return (
     <div className="grid grid-cols-3 pt-4">
       <div className="mb-4 overflow-hidden rounded-xl">
-        <div className="duration-400 h-60 w-full scale-110">
+        <div className="h-60 w-full scale-100">
           <Image layout="fill" src={news.image ? news.image.url : 'No Image'} alt="Vercel Logo" />
         </div>
       </div>

@@ -5,7 +5,7 @@ export default function DirecaoItem({ deliberativo }) {
     <div className="mb-8 mt-4 flex h-28 items-center rounded-xl p-2 shadow-md shadow-blue-200">
       <div className="mr-3">
         <Image
-          src={deliberativo.imagem ? deliberativo.imagem.url : '/static/favicons/logo.png'}
+          src={deliberativo.imagem ? deliberativo.imagem.url : '/logo.png'}
           alt="avatar"
           width="50px"
           height="50px"
